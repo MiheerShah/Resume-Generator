@@ -1,0 +1,44 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type=text], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .education, .experience {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8
+  }

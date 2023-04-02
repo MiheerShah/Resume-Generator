@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone">
+      <label for="summary">Summary</label>
+      <textarea id="summary" name="summary"></textarea>
+      <h2>Education</h2>
+      <div class="education">
+        <label for="degree1">Degree</label>
+        <input type="text" id="degree1" name="degree1">
+        <label for="university1">University</label>
+        <input type="text" id="university1" name="university1">
+        <label for="date1">Date</label>
+        <input type="date" id="date1" name="date1">
+      </div>
+      <button type="button" id="add-education">Add Education</button>
+      <h2>Experience</h2>
+      <div class="experience">
+        <label for="position1">Position</label>
+        <input type="text" id="position1" name="position1">
+        <label for="company1">Company</label>
+        <input type="text" id="company1" name="company1">
+        <label for="date2">Date</label>
+        <input type="date" id="date2" name="date2">
+      </div>
+      <button type="button" id="add-experience">Add Experience</button>
+      <button type="submit">Create Resume</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
